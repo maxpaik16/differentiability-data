@@ -66,13 +66,16 @@
             "friction_iterations": 1
         },
         "nonlinear": {
-            "grad_norm": 1e-6
+            "grad_norm": 1e-12
         }
     },
     "contact": {
         "enabled": true,
         "dhat": 0.02,
-        "friction_coefficient": 0.4000
+        "friction_coefficient": 0.0,
+        "use_gcp_formulation": true,
+        "use_convergent_formulation": false,
+        "alpha_t": 0.95
     },
     "boundary_conditions": {
         "rhs": [
