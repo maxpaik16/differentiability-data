@@ -1,0 +1,52 @@
+{
+    "variable_to_simulation": [
+        {
+            "type": "initial",
+            "state": 0,
+            "composition": []
+        }
+    ],
+    "parameters": [
+        {
+            "number": 1036
+        }
+    ],
+    "functionals": [
+        {
+            "type": "transient_integral",
+            "state": 0,
+            "static_objective": {
+                "type": "target",
+                "state": 0,
+                "target_state": 1,
+                "matching": "exact",
+                "surface_selection": [
+                    1
+                ]
+            }
+        },
+        {
+            "type": "min-dist-target",
+            "state": 0,
+            "target": [
+                0.05,
+                0.2
+            ],
+            "volume_selection": [
+                1
+            ],
+            "steps": [
+                2,
+                4
+            ]
+        }
+    ],
+    "states": [
+        {
+            "path": "initial-contact.json"
+        },
+        {
+            "path": "initial-contact-target.json"
+        }
+    ]
+}
