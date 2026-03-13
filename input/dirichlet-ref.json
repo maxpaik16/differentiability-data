@@ -75,6 +75,7 @@
     },
     "contact": {
         "enabled": true,
+        "use_convergent_formulation": true,
         "friction_coefficient": 0
     },
     "solver": {

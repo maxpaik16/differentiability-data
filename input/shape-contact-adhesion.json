@@ -55,6 +55,7 @@
     },
     "contact": {
         "enabled": true,
+        "use_convergent_formulation": true,
         "dhat": 0.0005,
         "adhesion": {
             "adhesion_enabled": true,
