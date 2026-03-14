@@ -102,7 +102,7 @@
     ],
     "states": [
         {
-            "path": "state_walker.json"
+            "path": "walker-shape.json"
         }
     ]
 }

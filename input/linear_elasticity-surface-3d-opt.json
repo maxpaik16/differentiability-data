@@ -18,7 +18,7 @@
     ],
     "states": [
         {
-            "path": "linear_elasticity-surface-3d-opt.json"
+            "path": "linear_elasticity-surface-3d.json"
         }
     ]
 }

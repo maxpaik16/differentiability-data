@@ -1,9 +1,24 @@
 {
     "variable_to_simulation": [
-
+        {
+            "type": "damping",
+            "state": 0,
+            "composition": [
+                {
+                    "type": "slice",
+                    "parameter_index": 0
+                }
+            ]
+        }
     ],
     "parameters": [
-
+        {
+            "number": 2,
+            "initial": [
+                10,
+                10
+            ]
+        }
     ],
     "functionals": [
         {

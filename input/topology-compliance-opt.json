@@ -1,9 +1,30 @@
 {
     "variable_to_simulation": [
-
+        {
+            "type": "elastic",
+            "state": 0,
+            "composition": [
+                {
+                    "type": "power",
+                    "power": 5
+                },
+                {
+                    "type": "append-const",
+                    "size": 198,
+                    "value": 0.3
+                },
+                {
+                    "type": "E-nu-to-lambda-mu",
+                    "is_volume": false
+                }
+            ]
+        }
     ],
     "parameters": [
-
+        {
+            "number": 198,
+            "initial": []
+        }
     ],
     "functionals": [
         {

@@ -16,7 +16,11 @@
             ]
         }
     ],
-    "parameters": [],
+    "parameters": [
+        {
+            "number": 42
+        }
+    ],
     "functionals": [
         {
             "type": "transient_integral",
