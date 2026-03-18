@@ -61,6 +61,7 @@
     },
     "contact": {
         "enabled": true,
+        "use_convergent_formulation": true,
         "dhat": 0.001
     },
     "boundary_conditions": {

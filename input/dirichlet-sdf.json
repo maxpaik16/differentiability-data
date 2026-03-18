@@ -89,6 +89,7 @@
     },
     "contact": {
         "enabled": true,
+        "use_convergent_formulation": true,
         "dhat": 1e-3,
         "friction_coefficient": 0.5
     },
