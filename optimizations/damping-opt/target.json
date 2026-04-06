@@ -36,6 +36,7 @@
     },
     "contact": {
         "enabled": true,
+        "use_convergent_formulation": true,
         "friction_coefficient": 1
     },
     "solver": {
